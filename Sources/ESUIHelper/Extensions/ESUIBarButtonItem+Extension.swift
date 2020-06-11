@@ -6,7 +6,6 @@
 //  Copyright © 2020 ESKARIA LLC. All rights reserved.
 //
 
-
 import UIKit
 
 public struct ESBarButtonItem {
