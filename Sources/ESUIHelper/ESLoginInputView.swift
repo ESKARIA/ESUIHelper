@@ -80,7 +80,7 @@ public class ESLoginInputView: UIView {
         
         self.separator = separator
         
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(DHLoginInputView.click(tapRecognizer:)))
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(ESLoginInputView.click(tapRecognizer:)))
         addGestureRecognizer(tapRecognizer)
     }
     

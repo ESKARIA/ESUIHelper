@@ -21,7 +21,7 @@ extension UIBarButtonItem {
     ///
     /// - Parameter items: array of struct for buttons
     /// - Returns: only one barButton item
-    public static func items(_ items: [DHBarButtonItem]) -> UIBarButtonItem {
+    public static func items(_ items: [ESBarButtonItem]) -> UIBarButtonItem {
 
         let stackView = UIStackView()
         stackView.axis = .horizontal
