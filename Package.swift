@@ -6,10 +6,9 @@ import PackageDescription
 let package = Package(
     name: "ESUIHelper",
     platforms: [
-        .iOS(.v13),
-        .macOS(.v10_15),
-        .watchOS(.v6),
-        .tvOS(.v13)
+        .iOS(.v12),
+        .watchOS(.v5),
+        .tvOS(.v12)
     ],
     products: [
         .library(name: "ESUIHelper", targets: ["ESUIHelper"]),
