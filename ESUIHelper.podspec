@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
-    s.platforms = { :ios => "13.0" }
+    s.platforms = { :ios => "12.0" }
     s.name = "ESUIHelper"
     s.summary = "ESUIHelper swift 5.2 UI framework for simple development amazing apps."
     s.requires_arc = true
-    s.version = "1.0.0"
+    s.version = "1.0.1"
     s.license = { :type => "MIT", :file => "LICENSE" }
     s.author = { "Emil Karimov" => "emvakar@gmail.com" }
     s.homepage = "https://github.com/ESKARIA/ESUIHelper.git"
